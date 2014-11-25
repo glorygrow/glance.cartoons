@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">glance.cartoons</string>
+    <string name="title">몰  래  보  는  만  화</string>
+    <string name="action_settings">Settings</string>
+    <string name="comicbook">만 화</string>
+    <string name="webtoon">웹 툰</string>
+
+</resources>
