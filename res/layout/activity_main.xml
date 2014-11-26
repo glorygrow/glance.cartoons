@@ -9,6 +9,11 @@
     tools:context="com.example.glance.cartoons.MainActivity"
     android:background="#000000" >
 
+    <WebView 
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />"
+    
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -55,7 +60,50 @@
 		        android:layout_width="fill_parent"
 		        android:layout_height="fill_parent"
 		        android:layout_weight="1"
-		        android:orientation="vertical" >
+		        android:orientation="horizontal" >
+		        
+		        <LinearLayout 
+		            android:id="@+id/llo2_body1_llo1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo2_body1_btn1"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1"
+			            android:gravity="center_vertical|center_horizontal"
+			            android:text="link 1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo2_body1_llo2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo2_body1_btn2"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo2_body1_llo3"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo2_body1_btn3"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        "
 		    </LinearLayout>
 
 		    <LinearLayout 
@@ -63,8 +111,48 @@
 		        android:layout_width="fill_parent"
 		        android:layout_height="fill_parent"
 		        android:layout_weight="1"
-		        android:orientation="vertical" >
+		        android:orientation="horizontal" >
 		    	
+		    	<LinearLayout 
+		            android:id="@+id/llo2_body2_llo1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo2_body2_btn1"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo2_body2_llo2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo2_body2_btn2"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo2_body2_llo3"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo2_body2_btn3"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        
 		    </LinearLayout>
 		    
 		</LinearLayout>
@@ -101,16 +189,96 @@
 		        android:layout_width="fill_parent"
 		        android:layout_height="fill_parent"
 		        android:layout_weight="1"
-		        android:orientation="vertical" >
-		    	
+		        android:orientation="horizontal" >
+    	        
+		    	<LinearLayout 
+		            android:id="@+id/llo3_body1_llo1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo3_body1_btn1"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo3_body1_llo2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo3_body1_btn2"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo3_body1_llo3"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo3_body1_btn3"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        
 		    </LinearLayout>
 		    <LinearLayout 
 		        android:id="@+id/llo3_body2"
 		        android:layout_width="fill_parent"
 		        android:layout_height="fill_parent"
 		        android:layout_weight="1"
-		        android:orientation="vertical" >
+		        android:orientation="horizontal" >
 		    	
+		        <LinearLayout 
+		            android:id="@+id/llo3_body2_llo1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo3_body2_btn1"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo3_body2_llo2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo3_body2_btn2"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        <LinearLayout 
+		            android:id="@+id/llo3_body2_llo3"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:paddingTop="3dp"
+			        android:paddingBottom="3dp" >
+		            <Button 
+			            android:id="@+id/llo3_body2_btn3"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+		        </LinearLayout>
+		        
 		    </LinearLayout>
     	    
     	</LinearLayout>
